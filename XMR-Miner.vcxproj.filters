@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="xmr_proxy.cpp" />
+    <ClCompile Include="deps\crypto\c_blake256.c">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\crypto\c_groestl.c">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\crypto\c_jh.c">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\crypto\c_keccak.c">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\crypto\c_skein.c">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="CryptoNight.cpp">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="xmr_proxy.h" />
+    <ClInclude Include="deps\crypto\align.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\crypto\c_blake256.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\crypto\c_groestl.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\crypto\c_jh.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\crypto\c_keccak.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\crypto\c_skein.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\crypto\CryptoNight.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\crypto\CryptoNight_arm.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\crypto\CryptoNight_test.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\crypto\CryptoNight_x86.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\crypto\groestl_tables.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\crypto\hash.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\crypto\skein_port.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\crypto\soft_aes.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\crypto\SSE2NEON.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="crypto">
+      <UniqueIdentifier>{1c5a5637-cc64-458c-87f9-4fc8c31a94e3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
